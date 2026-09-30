@@ -1,5 +1,7 @@
 # open-doc-check
 
+[English guide](README.en.md)
+
 轻量 Markdown 文档检查工具：找到失效链接、缺失图片和错误的本地路径，输出易读的中文报告。
 
 面向 README、项目文档和资源列表维护者。无需 API 密钥，无需登录。使用 Node.js 22 或以上。
