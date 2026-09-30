@@ -1,0 +1,13 @@
+{
+  "name": "open-doc-check",
+  "version": "0.1.0",
+  "description": "Check Markdown links and images with readable Chinese reports.",
+  "type": "module",
+  "bin": { "open-doc-check": "bin/open-doc-check.js" },
+  "files": ["bin", "src", "examples", ".github/workflows/ci.yml", "README.md", "LICENSE", "CONTRIBUTING.md", "SECURITY.md", "CHANGELOG.md"],
+  "scripts": { "test": "node --test", "check": "node bin/open-doc-check.js . --offline" },
+  "engines": { "node": ">=22" },
+  "license": "MIT",
+  "repository": { "type": "git", "url": "git+https://github.com/chuan-glitch/open-doc-check.git" },
+  "dependencies": { "markdown-it": "^14.1.0" }
+}
